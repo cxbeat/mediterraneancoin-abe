@@ -58,8 +58,8 @@ WORK_BITS = 304  # XXX more than necessary.
 CHAIN_CONFIG = [
     #{"chain":"Bitcoin",
     # "code3":"BTC", "address_version":"\x00", "magic":"\xf9\xbe\xb4\xd9"},
-    #{"chain":"Testnet",
-    # "code3":"BC0", "address_version":"\x6f", "magic":"\xfa\xbf\xb5\xda"},
+    {"chain":"Testnet",
+     "code3":"BC0", "address_version":"\x6f", "magic":"\xfa\xbf\xb5\xda"},
     #{"chain":"Namecoin",
     # "code3":"NMC", "address_version":"\x34", "magic":"\xf9\xbe\xb4\xfe"},
     #{"chain":"Weeds", "network":"Weedsnet",
@@ -72,8 +72,8 @@ CHAIN_CONFIG = [
     # "code3":"SC0", "address_version":"\x6f", "magic":"\xca\xfe\xba\xbe"},
     #{"chain":"Worldcoin",
     # "code3":"WDC", "address_version":"\x49", "magic":"\xfb\xc0\xb6\xdb"},
-    {"chain":"Mediterraneancoin",
-     "code3":"MED", "address_version":"\x33", "magic":"\xfb\xc0\xb6\xdb"},     
+    #{"chain":"Mediterraneancoin",
+    # "code3":"MED", "address_version":"\x33", "magic":"\xfb\xc0\xb6\xdb"},     
     #{"chain":"",
     # "code3":"", "address_version":"\x", "magic":""},
     ]
