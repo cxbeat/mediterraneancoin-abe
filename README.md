@@ -113,7 +113,7 @@ and network interface in abe.conf, e.g.:
 Input
 -----
 
-To display Namecoin or any block chain with data somewhere other than
+To display Mediterraneancoin or any block chain with data somewhere other than
 the default Bitcoin directory, specify "datadir" in abe.conf, e.g.:
 
     datadir = /home/mrtexaznl/.mediterraneancoin
@@ -148,4 +148,4 @@ Newbies: https://bitcointalk.org/index.php?topic=51139.0
 Donations appreciated: 1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf (BTC)
 NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK (NMC)
 
-MED: MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf 
+
