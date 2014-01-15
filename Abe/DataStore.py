@@ -1220,7 +1220,8 @@ store._ddl['txout_approx'],
                 if thing + "_name" not in conf:
                     conf[thing + "_name"] = conf["network"] + " " + thing
 
-            store.log.info("***" + conf["magic_id"] + " - " + conf["magic_name"]) 
+            store.log.info(conf["magic_id"])
+            store.log.info( conf["magic_name"])
                     
             store.sql("""
                 INSERT INTO magic (magic_id, magic, magic_name)
