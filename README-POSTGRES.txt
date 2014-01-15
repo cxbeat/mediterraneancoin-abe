@@ -25,6 +25,16 @@ Create file abe-pg.conf with contents:
     upgrade
     port 2750
 
+    datadir += [{
+     "dirname" : "/home/mrtexaznl/.mediterraneancoin",
+     "chain" : "Mediterraneancoin",
+     "code3" : "MED",
+     "address_version" : "\u0033",
+     "magic" : "\u00fb\u00c0\u00b6\u00db"
+    }]
+    
+    
+
 Perform the initial data load:
 
     python -m Abe.abe --config abe-pg.conf --commit-bytes 100000 --no-serve
