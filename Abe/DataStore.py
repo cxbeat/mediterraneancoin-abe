@@ -72,8 +72,8 @@ CHAIN_CONFIG = [
     # "code3":"SC0", "address_version":"\x6f", "magic":"\xca\xfe\xba\xbe"},
     #{"chain":"Worldcoin",
     # "code3":"WDC", "address_version":"\x49", "magic":"\xfb\xc0\xb6\xdb"},
-    #{"chain":"Mediterraneancoin",
-    # "code3":"MED", "address_version":"\x33", "magic":"\xfb\xc0\xb6\xdb"},     
+    {"chain":"Mediterraneancoin",
+     "code3":"MED", "address_version":"\x33", "magic":"\xfb\xc0\xb6\xdb"},     
     #{"chain":"",
     # "code3":"", "address_version":"\x", "magic":""},
     ]
